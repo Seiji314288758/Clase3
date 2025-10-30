@@ -13,9 +13,9 @@ void main()
   do
     {
   printf("Nombre: ");
-  scanf("%S", &user);
+  scanf("%s", &user);
   printf("Contrasena: ");
-  scanf("%S", &pass);
+  scanf("%s", &pass);
 
   if((strcmp(user,"root") == 0) && (strcmp(pass, "1234") == 0))
      {
@@ -29,7 +29,7 @@ else
     
 
    }
-while(intentos < 3 || correct == 0);
+while((intentos < 3) && (correct == 0));
 
 if (correct == 1 && intentos <3)
 {
