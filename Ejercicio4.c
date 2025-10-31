@@ -1,5 +1,5 @@
 /*Victor Seiji Nieto Morita
-clase 4 ejercio 3*/
+clase 3 ejercio 3*/
   
 #include <stdio.h>
 
