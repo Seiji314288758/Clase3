@@ -24,7 +24,7 @@ for(int i = 2; i <= 10; i++)
   {
        do
       {
-       printf("Dame el numero  entero: ");
+       printf("Dame el numero entero: ");
        scanf("%d", &num);
       }
       while(num < 0);
@@ -41,7 +41,7 @@ for(int i = 2; i <= 10; i++)
  }
  media = suma / 10;
 
-printf("La suma total de los numeros es: 5d\n", suma);
+printf("La suma total de los numeros es: 5%d\n", suma);
 printf("El promedio total de los numeros es: %d\n", media);
 printf("El numero mayor es: %d\n", mayor);
 printf("El numero menor es: %d\n", menor);
