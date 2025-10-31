@@ -1,5 +1,5 @@
 /* Victor Seiji Nieto Morita
-clase 3 ejercicio 7*/
+clase 4 ejercicio 7*/
 
 #include <stdio.h>
 #include <string.h>
